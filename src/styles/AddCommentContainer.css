@@ -1,0 +1,26 @@
+.addComment {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input {
+	width: 40vw;
+	height: 100px;
+	margin-bottom: 10px;
+	background-color: #667f97;
+	border: 1px solid #EFD9C1;
+}
+
+button {
+	width: 60px;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+	margin: 0;
+	padding: 0;	
+	background-color: #3a4d5f;
+	display: flex;
+	justify-content: center;
+	font-family: 'Noto Sans';
+	text-align: center;
+	color:#8dccb6;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.commentsListContainer {
+	width: 40vw;
+	height: 40vh;
+	border: 3px solid #EFD9C1;
+}
+
+
+
+
+
+
+
+
