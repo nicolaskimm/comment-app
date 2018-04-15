@@ -1,4 +1,4 @@
-import {ADD_COMMENT, DELETE_COMMENT, EDIT_COMMENT, THUMBUP_COMMENT, THUMBDOWN_COMMENT} from './actions';
+import {ADD_COMMENT, DELETE_COMMENT, EDIT_COMMENT, THUMBUP_COMMENT, THUMBDOWN_COMMENT} from '../actions/actions';
 
 function comments (state = [], action) {
 	switch (action.type) {

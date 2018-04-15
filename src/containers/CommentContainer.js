@@ -1,9 +1,9 @@
 import {connect} from 'react-redux';
-import Comment from './Comment';
-import {thumbUp} from './actions';
-import {thumbDown} from './actions';
-import {deleteComment} from './actions';
-import './styles/CommentContainer.css';
+import Comment from '../presentational/Comment';
+import {thumbUp} from '../actions/actions';
+import {thumbDown} from '../actions/actions';
+import {deleteComment} from '../actions/actions';
+import '../styles/CommentContainer.css';
 
 
 const mapDispatchToProps = dispatch => ({
